@@ -1,0 +1,24 @@
+{
+  "name": "notebook_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd client && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renmin/notebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renmin/notebook/issues"
+  },
+  "homepage": "https://github.com/renmin/notebook#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
